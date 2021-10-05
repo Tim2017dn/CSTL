@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/MinPQ.c
+common.h
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/common.h
+
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/common.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+sortUtils.h
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/sortUtils.h
+
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/sortUtils.h
+

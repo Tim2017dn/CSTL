@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "AVL.exe"
+  "AVL.exe.manifest"
+  "AVL.pdb"
+  "CMakeFiles/AVL.dir/AVL.c.obj"
+  "libAVL.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/AVL.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
