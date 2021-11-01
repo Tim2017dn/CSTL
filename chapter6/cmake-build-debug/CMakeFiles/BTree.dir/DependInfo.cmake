@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter6/main.cpp" "E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter6/cmake-build-debug/CMakeFiles/BTree.dir/main.cpp.obj"
+  "/home/dolly/CLionProjects/CSTL/other/RPN.cpp" "/home/dolly/CLionProjects/CSTL/chapter6/cmake-build-debug/CMakeFiles/BTree.dir/home/dolly/CLionProjects/CSTL/other/RPN.cpp.o"
+  "/home/dolly/CLionProjects/CSTL/chapter6/main.cpp" "/home/dolly/CLionProjects/CSTL/chapter6/cmake-build-debug/CMakeFiles/BTree.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
