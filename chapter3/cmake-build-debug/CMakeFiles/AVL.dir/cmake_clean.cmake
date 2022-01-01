@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "AVL.exe"
-  "AVL.exe.manifest"
+  "AVL"
   "AVL.pdb"
-  "CMakeFiles/AVL.dir/AVL.c.obj"
-  "libAVL.dll.a"
+  "CMakeFiles/AVL.dir/AVL.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

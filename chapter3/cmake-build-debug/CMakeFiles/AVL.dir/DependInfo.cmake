@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter3/AVL.c" "E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter3/cmake-build-debug/CMakeFiles/AVL.dir/AVL.c.obj"
+  "/home/dolly/CLionProjects/CSTL/chapter3/AVL.c" "/home/dolly/CLionProjects/CSTL/chapter3/cmake-build-debug/CMakeFiles/AVL.dir/AVL.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
