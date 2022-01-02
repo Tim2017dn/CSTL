@@ -2,18 +2,10 @@
 // Created by dolly on 2022/1/1.
 //
 #include "common.h"
-typedef struct _node{
-    struct _node* prev;
-    struct _node* next;
-}node_t;
+#include "chapter1.h"
 
-typedef  struct _list{
-    node_t* first;
-    node_t* tail;
-    int count;
-}list_t;
-
-void list_add_tail(list_t* list, node_t* node){
+void list_add_tail(list_t* list, node_t* node)
+{
     if(list->first == NULL){
         list->first = node;
         list->tail = node;
@@ -26,7 +18,8 @@ void list_add_tail(list_t* list, node_t* node){
     }
 }
 
-void list_init(list_t* list){
+void list_init(list_t* list)
+{
     list->first = NULL;
     list->tail = NULL;
     list->count = 0;
