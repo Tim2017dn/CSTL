@@ -135,6 +135,32 @@ queue/fast:
 	$(MAKE) -f CMakeFiles\queue.dir\build.make CMakeFiles/queue.dir/build
 .PHONY : queue/fast
 
+#=============================================================================
+# Target rules for targets named chapter1_lib
+
+# Build rule for target.
+chapter1_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 chapter1_lib
+.PHONY : chapter1_lib
+
+# fast build rule for target.
+chapter1_lib/fast:
+	$(MAKE) -f CMakeFiles\chapter1_lib.dir\build.make CMakeFiles/chapter1_lib.dir/build
+.PHONY : chapter1_lib/fast
+
+#=============================================================================
+# Target rules for targets named list
+
+# Build rule for target.
+list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 list
+.PHONY : list
+
+# fast build rule for target.
+list/fast:
+	$(MAKE) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/build
+.PHONY : list/fast
+
 Queue.obj: Queue.c.obj
 
 .PHONY : Queue.obj
@@ -189,6 +215,36 @@ Stack.c.s:
 	$(MAKE) -f CMakeFiles\stack.dir\build.make CMakeFiles/stack.dir/Stack.c.s
 .PHONY : Stack.c.s
 
+list.obj: list.c.obj
+
+.PHONY : list.obj
+
+# target to build an object file
+list.c.obj:
+	$(MAKE) -f CMakeFiles\chapter1_lib.dir\build.make CMakeFiles/chapter1_lib.dir/list.c.obj
+	$(MAKE) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/list.c.obj
+.PHONY : list.c.obj
+
+list.i: list.c.i
+
+.PHONY : list.i
+
+# target to preprocess a source file
+list.c.i:
+	$(MAKE) -f CMakeFiles\chapter1_lib.dir\build.make CMakeFiles/chapter1_lib.dir/list.c.i
+	$(MAKE) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/list.c.i
+.PHONY : list.c.i
+
+list.s: list.c.s
+
+.PHONY : list.s
+
+# target to generate assembly for a file
+list.c.s:
+	$(MAKE) -f CMakeFiles\chapter1_lib.dir\build.make CMakeFiles/chapter1_lib.dir/list.c.s
+	$(MAKE) -f CMakeFiles\list.dir\build.make CMakeFiles/list.dir/list.c.s
+.PHONY : list.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -198,6 +254,8 @@ help:
 	@echo ... stack
 	@echo ... edit_cache
 	@echo ... queue
+	@echo ... chapter1_lib
+	@echo ... list
 	@echo ... rebuild_cache
 	@echo ... Queue.obj
 	@echo ... Queue.i
@@ -205,6 +263,9 @@ help:
 	@echo ... Stack.obj
 	@echo ... Stack.i
 	@echo ... Stack.s
+	@echo ... list.obj
+	@echo ... list.i
+	@echo ... list.s
 .PHONY : help
 
 

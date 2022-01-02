@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/common.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/list.c
+common.h
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/common.h
+list.h
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/list.h
+
+E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/list.h
+
