@@ -1,10 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CSTL.dir/main.c.obj"
-  "CMakeFiles/CSTL.dir/sort/quicksort.c.obj"
-  "CSTL.exe"
-  "CSTL.exe.manifest"
+  "CMakeFiles/CSTL.dir/main.c.o"
+  "CSTL"
   "CSTL.pdb"
-  "libCSTL.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

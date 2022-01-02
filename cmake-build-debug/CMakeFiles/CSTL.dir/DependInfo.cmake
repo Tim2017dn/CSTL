@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/ProjectWorkspace/3.CLion-workspace/CSTL/main.c" "E:/ProjectWorkspace/3.CLion-workspace/CSTL/cmake-build-debug/CMakeFiles/CSTL.dir/main.c.obj"
-  "E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/quicksort.c" "E:/ProjectWorkspace/3.CLion-workspace/CSTL/cmake-build-debug/CMakeFiles/CSTL.dir/sort/quicksort.c.obj"
+  "/home/dolly/CLionProjects/CSTL/main.c" "/home/dolly/CLionProjects/CSTL/cmake-build-debug/CMakeFiles/CSTL.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../chapter1"
+  "../chapter3"
   )
 
 # Targets to which this target links.

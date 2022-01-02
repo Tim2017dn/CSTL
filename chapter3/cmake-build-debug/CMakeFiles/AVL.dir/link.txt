@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/AVL.dir/AVL.c.o -o AVL 

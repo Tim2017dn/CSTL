@@ -1,3 +1,0 @@
-/home/dolly/CLionProjects/CSTL/other/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dolly/CLionProjects/CSTL/other/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dolly/CLionProjects/CSTL/other/cmake-build-debug/CMakeFiles/RPN.dir

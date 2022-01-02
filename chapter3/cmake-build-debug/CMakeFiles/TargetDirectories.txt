@@ -1,4 +1,0 @@
-/home/dolly/CLionProjects/CSTL/chapter3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dolly/CLionProjects/CSTL/chapter3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dolly/CLionProjects/CSTL/chapter3/cmake-build-debug/CMakeFiles/AVL.dir
-/home/dolly/CLionProjects/CSTL/chapter3/cmake-build-debug/CMakeFiles/BST.dir

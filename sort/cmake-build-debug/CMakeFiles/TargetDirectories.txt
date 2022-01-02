@@ -1,6 +1,0 @@
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/cmake-build-debug/CMakeFiles/quicksort.dir
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/cmake-build-debug/CMakeFiles/minpq.dir
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/cmake-build-debug/CMakeFiles/InsertSort.dir
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/cmake-build-debug/CMakeFiles/MergeSort.dir
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir

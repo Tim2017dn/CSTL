@@ -1,2 +1,0 @@
-E:\OpenProject\mingw\mingw32\bin\ar.exe qc libchapter1_lib.a  CMakeFiles/chapter1_lib.dir/list.c.obj
-E:\OpenProject\mingw\mingw32\bin\ranlib.exe libchapter1_lib.a

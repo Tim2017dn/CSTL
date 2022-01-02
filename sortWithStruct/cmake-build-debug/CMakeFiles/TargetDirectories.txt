@@ -1,3 +1,0 @@
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sortWithStruct/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sortWithStruct/cmake-build-debug/CMakeFiles/qs.dir
-E:/ProjectWorkspace/3.CLion-workspace/CSTL/sortWithStruct/cmake-build-debug/CMakeFiles/edit_cache.dir
