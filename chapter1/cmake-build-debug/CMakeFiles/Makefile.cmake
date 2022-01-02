@@ -50,4 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/stack.dir/DependInfo.cmake"
   "CMakeFiles/queue.dir/DependInfo.cmake"
+  "CMakeFiles/chapter1_lib.dir/DependInfo.cmake"
+  "CMakeFiles/list.dir/DependInfo.cmake"
   )

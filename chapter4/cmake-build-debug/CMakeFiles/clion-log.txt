@@ -1,0 +1,9 @@
+"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -DCMAKE_C_COMPILER=E:/OpenProject/mingw/mingw32/bin/gcc.exe -DCMAKE_CXX_COMPILER=E:/OpenProject/mingw/mingw32/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" E:\ProjectWorkspace\3.CLion-workspace\CSTL\chapter4
+CMake Error at CMakeLists.txt:9 (add_library):
+  The target name "../chapter1/" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter4/cmake-build-debug/CMakeFiles/CMakeOutput.log".

@@ -2,12 +2,13 @@
 // Created by dolly on 2022/1/1.
 //
 #include "common.h"
-#include "chapter1.h"
+
+#include "list.h"
 
 void list_add_tail(list_t* list, node_t* node)
 {
-    if(list->first == NULL){
-        list->first = node;
+    if(list->head == NULL){
+        list->head = node;
         list->tail = node;
         list->count++;
     }else{
@@ -20,7 +21,8 @@ void list_add_tail(list_t* list, node_t* node)
 
 void list_init(list_t* list)
 {
-    list->first = NULL;
+
+    list->head = NULL;
     list->tail = NULL;
     list->count = 0;
 }
@@ -45,7 +47,7 @@ int main(){
     list_add_tail(&cla.list, &t1.node);
     list_add_tail(&cla.list,&t2.node);
     list_add_tail(&cla.list,&t3.node);
-    node_t* cur = cla.list.first;
+    node_t* cur = cla.list.head;
     for(int i=0;i<cla.list.count;i++){
         student_t* st = (student_t*)cur;
         printf("age:%d\n",st->age);

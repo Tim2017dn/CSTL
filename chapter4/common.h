@@ -1,10 +1,26 @@
 //
-// Created by dolly on 2022/1/1.
+// Created by dolly on 2021/9/20.
 //
 
-#ifndef CHAPTER4_COMMON_H
-#define CHAPTER4_COMMON_H
+#ifndef CSTL_COMMON_H
+#define CSTL_COMMON_H
 
-#include
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
 
-#endif //CHAPTER4_COMMON_H
+//#include "sortUtils.h"
+
+typedef  struct{
+    int num;
+    char name[100];
+} Item;
+
+typedef struct _Node{
+    Item* item;
+    struct _Node* next;
+} Node;
+
+
+#endif //CSTL_COMMON_H

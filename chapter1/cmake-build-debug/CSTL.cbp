@@ -99,6 +99,42 @@
 					<DistClean command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="list">
+				<Option output="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/OpenProject/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/OpenProject/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/OpenProject/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list/fast">
+				<Option output="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/OpenProject/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/OpenProject/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/OpenProject/mingw/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/OpenProject/mingw/mingw32/bin/mingw32-make.exe -f &quot;E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/cmake-build-debug"/>
 				<Option type="4"/>
@@ -115,6 +151,12 @@
 		</Unit>
 		<Unit filename="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/Stack.c">
 			<Option target="stack"/>
+		</Unit>
+		<Unit filename="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/list.c">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/list.h">
+			<Option target="list"/>
 		</Unit>
 		<Unit filename="E:/ProjectWorkspace/3.CLion-workspace/CSTL/chapter1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

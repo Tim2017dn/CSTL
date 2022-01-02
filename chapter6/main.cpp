@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include < sys/socket.h>
 
 #define MAX 3
 #define MIN 2
